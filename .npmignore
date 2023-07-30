@@ -1,4 +1,4 @@
-.idea
-node_modules
-.gitignore
+.idea/
+node_modules/
+/.gitignore
 /.npmrc

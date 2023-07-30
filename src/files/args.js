@@ -11,7 +11,15 @@ function isNumeric(value) {
 }
 
 /**
- * @description
+ * @description Converts string value to typed value.
+ *
+ *              ### e.g.
+ *              - The string `"true"` is converted to boolean `true`
+ *              - The string `"undefined"` is converted to `undefined`
+ *              - The string `"234"` is converted to number `234`
+ *              - The string `"null"` is converted to `null`
+ *              - The string `"{}"` is converted to object `{}`
+ *              - ...
  *
  * @param {string} value
  * @returns {number|undefined|any}

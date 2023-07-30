@@ -13,8 +13,32 @@
     "pack": "npm pack"
   },
   "author": {
-    "name": "Dárius Bokor",
+    "name": "Dárius Bokor - WERORO.sk",
     "email": "info@weroro.sk"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weroro-sk/tsc-clean"
+  },
+  "bugs": "https://github.com/weroro-sk/tsc-clean/issues",
+  "homepage": "https://github.com/weroro-sk/tsc-clean#readme",
+  "keywords": [
+    "clean",
+    "remove",
+    "delete",
+    "clear",
+    "folders",
+    "typescript",
+    "tsc",
+    "build",
+    "webpack",
+    "rm",
+    "rmrf",
+    "unlink",
+    "cleaning",
+    "cleanup",
+    "files",
+    "weroro"
+  ]
 }
