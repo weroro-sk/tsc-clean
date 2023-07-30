@@ -56,3 +56,7 @@ Argument **dir** is always recursive
   }
 }
 ```
+---
+## License
+
+[MIT](LICENSE) © [Dárius Bokor](https://www.weroro.sk/)
