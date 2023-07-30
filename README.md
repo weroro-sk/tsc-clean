@@ -1,8 +1,29 @@
 # tsc-clean
 
-Small and simple lib for cleaning build files and folders before or after node builds (**tsc** (_typescript_), **webpack**, etc.).
+Small and simple lib for cleaning build files and folders before or after node builds (**tsc** (_typescript_), **webpack
+**, etc.).
 
 The library is usable on Windows and Unix-like systems (macos, linux, ...)
+
+---
+
+<p align="center">
+
+  <a href="https://www.npmjs.com/package/tsc-clean" target="_blank" title="Latest NPM version">
+    <img alt="NPM version" src="https://img.shields.io/npm/v/tsc-clean?label=npm%20version&style=flat-square&logo=npm">
+  </a>
+
+  <a href="https://github.com/weroro-sk/tsc-clean" target="_blank" title="Latest package.json version on GitHub">
+    <img alt="GitHub version" src="https://img.shields.io/github/package-json/version/weroro-sk/tsc-clean/main?label=github%20version&style=flat-square&logo=github">
+  </a>
+
+  <a href="https://github.com/weroro-sk/tsc-clean/releases" target="_blank">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/weroro-sk/tsc-clean?label=github%20release&style=flat-square&logo=github">
+  </a>
+
+</p>
+
+---
 
 ## Installation
 
@@ -19,13 +40,12 @@ The library is usable on Windows and Unix-like systems (macos, linux, ...)
 `npx tsc-clean [--arguments]`
 
 #### example:
+
 `npx tsc-clean --dir=dir_path`
 
 `npx tsc-clean --file=file_path`
 
 `npx tsc-clean --dir=dir_path --file=file_path`
-
-
 
 ### Javascript
 
@@ -38,6 +58,7 @@ clean({file: 'file_path'});
 
 clean({dir: 'dir_path', file: 'file_path'});
 ```
+
 ---
 
 Argument **dir** is always recursive
@@ -45,6 +66,7 @@ Argument **dir** is always recursive
 ---
 
 ## Use in practice
+
 (package.json)
 
 ```json
@@ -56,7 +78,9 @@ Argument **dir** is always recursive
   }
 }
 ```
+
 ---
+
 ## License
 
 [MIT](LICENSE) © [Dárius Bokor](https://www.weroro.sk/)
