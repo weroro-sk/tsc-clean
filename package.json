@@ -1,10 +1,10 @@
 {
-  "name": "tsc-clean",
-  "version": "0.0.2",
-  "description": "",
+  "name": "tsc-cleaner",
+  "version": "0.0.3",
+  "description": "Small and simple lib for cleaning build files and folders before or after node builds (tsc (typescript), webpack, etc.).",
   "main": "src/index.js",
   "bin": {
-    "tsc-clean": "src/cli.js"
+    "tsc-cleaner": "src/cli.js"
   },
   "engines": {
     "node": ">=16"
