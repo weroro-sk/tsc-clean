@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "bin": {
-    "tsc-clean": "src/bin.js"
+    "tsc-clean": "src/cli.js"
   },
   "engines": {
     "node": ">=16"

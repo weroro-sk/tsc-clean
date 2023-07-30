@@ -1,22 +1,21 @@
 const fs = require("fs");
-/** @type {{[p: string]: string|boolean}} */
-const args = require("./args");
 
 /**
  * @description
  *
+ * @param {{dir?: string, file?: string}} args
  * @returns {void}
  */
-function clean() {
+function clean({dir, file}) {
 
-    if (args?.dir?.trim?.()) {
-        const path = args.dir.toString();
+    if (dir?.trim?.()) {
+        const path = dir.toString();
         if (fs.existsSync(path))
             fs.rmSync(path, {recursive: true});
     }
 
-    if (args?.file?.trim?.()) {
-        const path = args.file.toString();
+    if (file?.trim?.()) {
+        const path = file.toString();
         if (fs.existsSync(path))
             fs.rmSync(path);
     }

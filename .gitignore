@@ -1,4 +1,4 @@
 .idea
 node_modules
-.npmrc
-package-lock.json
+/.npmrc
+/package-lock.json
