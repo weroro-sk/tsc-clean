@@ -1,3 +1,10 @@
+> Info
+>
+> The library is outdated. Use [rimraf](https://github.com/isaacs/rimraf) instead.
+>
+
+---
+
 # tsc-cleaner
 
 Small and simple lib for cleaning build files and folders before or after node builds (**tsc** (_typescript_), **webpack
